@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailUserActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:background="#8cbaff">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_detail"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="60dp"
+            android:layout_centerHorizontal="true"
+            app:civ_border_color="#ffffff"
+            app:civ_border_width="3dp"
+            android:src="@drawable/profile1"/>
+        
+        <TextView
+            android:id="@+id/tv_nama_detail"
+            android:layout_below="@id/img_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sutan Pratama"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_username_detail"
+            android:layout_below="@id/tv_nama_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sutanpratama32"
+            android:fontFamily="@font/montserrat"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv_favorit"
+            android:layout_below="@id/tv_username_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ Tambahkan Ke Favorit"
+            android:layout_centerHorizontal="true"
+            android:textColor="#f21d59"
+            android:fontFamily="@font/montserrat"
+            android:textSize="10dp"
+            android:layout_marginTop="10dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_layout_2"
+        android:layout_below="@id/rl_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/icon_company" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blog"
+                android:fontFamily="@font/montserrat"
+                android:textSize="12dp"
+                android:textColor="#ababab" />
+
+            <TextView
+                android:id="@+id/tv_detail_blog"
+                android:layout_marginTop="7dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:fontFamily="@font/montserrat"
+                android:textSize="18dp"
+                android:text="PT. Media Aksara Indonesia" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_2"
+            android:layout_below="@id/ll_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/icon_location" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/location"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="12dp"
+                    android:textColor="#ababab" />
+
+                <TextView
+                    android:id="@+id/tv_detail_location"
+                    android:layout_marginTop="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="18dp"
+                    android:text="Indonesia" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_3"
+            android:layout_below="@id/ll_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/icon_repository" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/repository"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="12dp"
+                    android:textColor="#ababab" />
+
+                <TextView
+                    android:id="@+id/tv_detail_repository"
+                    android:layout_marginTop="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="18dp"
+                    android:text="sutanpratama32/CircleLibrary" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp" >
+
+    <LinearLayout
+        android:id="@+id/follow_box"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginTop="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/follower"
+                android:fontFamily="@font/montserrat"
+                android:textColor="#ababab"
+                android:gravity="center"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_detail_follower"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="28dp"
+                android:text="64"
+                android:textColor="#000000"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginTop="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/following"
+                android:fontFamily="@font/montserrat"
+                android:textColor="#ababab"
+                android:gravity="center"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_detail_following"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="28dp"
+                android:text="142"
+                android:textColor="#000000"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

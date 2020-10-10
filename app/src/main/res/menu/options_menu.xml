@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:menuCategory="container">
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/search_black_24dp"
+            android:title="@string/cari_user"
+            app:actionViewClass="android.widget.SearchView"
+            app:showAsAction="collapseActionView|always" />
+
+        <item
+            android:id="@+id/action_change_settings"
+            android:title="@string/change_language_settings"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/favorite_icon"
+            android:icon="@drawable/icon_heart"
+            android:title="Lihat Favorit"
+            app:showAsAction="collapseActionView|always"
+            />
+
+        <item
+            android:id="@+id/setting_icon"
+            android:icon="@drawable/setting"
+            android:title="Pengaturan"
+            app:showAsAction="collapseActionView|always"
+            />
+    </group>
+</menu>

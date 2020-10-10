@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Github Application</string>
+    <string name="change_language_settings">Change Language</string>
+    <string name="tab_text_1">Followers</string>
+    <string name="tab_text_2">Following</string>
+    <string name="loading_message">Loading</string>
+    <string name="cari_user">Search User ..</string>
+    <string name="location">Location</string>
+    <string name="repository">Public Repository</string>
+    <string name="follower">Follower</string>
+    <string name="following">Following</string>
+</resources>

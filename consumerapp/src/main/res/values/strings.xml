@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Favorite Github App</string>
+    <string name="change_language_settings">Ubah Bahasa</string>
+    <string name="tab_text_1">Pengikut</string>
+    <string name="tab_text_2">Mengikuti</string>
+    <string name="loading_message">Memuat</string>
+    <string name="cari_user">Cari User ..</string>
+    <string name="location">Lokasi</string>
+    <string name="repository">Repositori Publik</string>
+    <string name="follower">Pengikut</string>
+    <string name="following">Mengikuti</string>
+</resources>
